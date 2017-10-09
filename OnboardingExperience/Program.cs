@@ -25,7 +25,6 @@ namespace OnboardingExperience
             user.PinNumber = AskPinNumber("What is your 4-digit pin?", 4);
             Console.WriteLine("Awesome! You entered: " + user.PinNumber);
 
-            // This is only needed when we're debugging. We can remove the line below when we publish
             Console.ReadLine();
         }
 
