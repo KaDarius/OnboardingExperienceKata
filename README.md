@@ -9,7 +9,7 @@ However, this app isn't very extensive or dynamic. So, let's expand it.
 Fork and clone the repository to your local machine.
 
 ## Step 2
-Refactor, refactor, refactor. Let's work together on making this project more extensive and dynamic.
+Refactor, refactor, refactor. Let's work on making this project more extensive and dynamic.
 
 Brainstorm. Use ReSharper. Do what you think is best to make this better. Some suggestions:
 
