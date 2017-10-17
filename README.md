@@ -11,7 +11,17 @@ Fork and clone the repository to your local machine.
 ## Step 2
 Refactor, refactor, refactor. Let's work together on making this project more extensive and dynamic.
 
-Brainstorm. Use ReSharper. Do what you think is best to make this better.
+Brainstorm. Use ReSharper. Do what you think is best to make this better. Some suggestions:
+
+* Use an OnboardingParser class to confirm that the type passed is the correct type
+* Use subclasses to define different types of parsing
+* Use an Interface (perhaps IParsable) to subscribe these subclasses to
+
+IParsable could have a method like this:
+
+```csharp
+public T Parse(string answer) {}; // T is the generic type for the parser subclass
+```
 
 ## Step 3
 Let's add more data that the user can support.
